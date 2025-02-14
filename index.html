@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Tabs</title>
+    <link rel="icon" href="/public/favicon.ico" sizes="any" />
+    <link rel="icon" href="/public/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/public/apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="tabs">
+      <button class="tabs__button tabs__button--active" data-tab="description">
+        Описание
+      </button>
+      <button class="tabs__button" data-tab="reviews">Отзывы</button>
+      <button class="tabs__button" data-tab="origin">Откуда?</button>
+    </header>
+    <main>
+      <section id="description" class="description-content">ОПИСАНИЕ</section>
+      <section id="reviews" class="reviews-content">ОТЗЫВЫ</section>
+      <section id="origin" class="origin-content">ОТКУДА?</section>
+      <section class="cards">
+        <h3>С этим товаром покупают</h3>
+        <!--         <template id="card-template"> -->
+        <article class="card__content">
+          <img alt="" src="" class="card__content-image" />
+          <img
+            alt="like card"
+            src="/src/assets/icon/like.svg"
+            class="card__content-icon--like"
+          />
+          <p class="card__content-name"></p>
+          <p class="card__content-about"></p>
+          <p class="card__content-price">
+            / <span class="card__content-piece"></span>
+          </p>
+          <img
+            alt="like card"
+            src="/src/assets/icon/shopping-cart.svg"
+            class="card__content-icon--cart"
+          />
+          <img
+            alt="like card"
+            src="/src/assets/images/rating.png"
+            class="card__content-image--rating"
+          />
+        </article>
+        <!--         </template> -->
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
