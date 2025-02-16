@@ -1,0 +1,8 @@
+.origin__image {
+  width: 376px;
+  height: 267px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  object-fit: cover;
+  object-position: top;
+}

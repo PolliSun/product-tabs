@@ -1,0 +1,11 @@
+.card__price {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.card__price-piece {
+  font-size: 12px;
+  font-weight: normal;
+  color: #89817f;
+}

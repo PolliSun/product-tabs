@@ -1,0 +1,6 @@
+.card__footer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3px;
+}

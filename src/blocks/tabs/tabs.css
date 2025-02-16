@@ -1,0 +1,8 @@
+@import url('./__button/tabs__button.css');
+
+.tabs {
+    display: flex;
+    max-width: 472px;
+    margin: 0 auto;
+    justify-content: space-between;
+}

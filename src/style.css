@@ -1,3 +1,13 @@
+@import url('../src/assets/fonts/fonts.css');
+@import url('../src/blocks/cards/cards.css');
+@import url('../src/blocks/card/card.css');
+@import url('../src/blocks/page/page.css');
+@import url('../src/blocks/tabs/tabs.css');
+@import url('../src/blocks/header/header.css');
+@import url('../src/blocks/reviews/reviews.css');
+@import url('../src/blocks/description/description.css');
+@import url('../src/blocks/origin/origin.css');
+
 :root {
   --primary-color: #444444;
   --secondary-color: #454343;

@@ -1,0 +1,11 @@
+.description__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description__info-text {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}

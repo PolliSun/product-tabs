@@ -1,0 +1,12 @@
+.origin__description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 511px;
+}
+
+.origin__description-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}

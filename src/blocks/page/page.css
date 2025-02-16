@@ -1,0 +1,5 @@
+.page {
+  min-inline-size: 375px;
+  max-inline-size: 1066px;
+  margin: 16px auto;
+}

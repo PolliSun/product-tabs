@@ -1,0 +1,17 @@
+.origin__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.origin__actions-button {
+  border: 0.5px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

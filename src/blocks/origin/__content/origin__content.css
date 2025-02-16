@@ -1,0 +1,5 @@
+.origin__content {
+    display: flex;
+    margin-top: 49px;
+    justify-content: space-between;
+}
