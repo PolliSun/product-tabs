@@ -1,5 +1,3 @@
 @import url('./__info/description__info.css');
+@import url('./__content/description__content.css');
 
-.description {
-    margin-top: 51px;
-}

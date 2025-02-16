@@ -1,0 +1,13 @@
+@import url('./__characteristics/table__characteristics.css');
+@import url('./__list/table__list.css');
+@import url('./__title/table__title.css');
+@import url('./__nutritional/table__nutritional.css');
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 103px;
+    row-gap: 29px;
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
