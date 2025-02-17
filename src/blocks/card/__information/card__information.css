@@ -2,5 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 7px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+}
+
+.card__information:nth-child(4){
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .card__information {
+    margin-bottom: 20px;
+  }
 }

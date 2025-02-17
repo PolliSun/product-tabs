@@ -1,0 +1,9 @@
+.table__storage .table__list-item:nth-of-type(1) {
+  margin-bottom: -3px;
+}
+
+@media (min-width: 1024px) {
+  .table__storage .table__list-item:nth-of-type(1) {
+    margin-bottom: 0;
+  }
+}

@@ -19,7 +19,7 @@
           Описание
         </button>
         <button class="tabs__button" data-tab="reviews">Отзывы</button>
-        <button class="tabs__button" data-tab="origin">Откуда?</button>
+        <button class="tabs__button" data-tab="origin">Откуда<span class="tabs__button-piece--hidden">?</span></button>
       </div>
     </header>
     <main>
@@ -27,13 +27,20 @@
         <div class="description__content">
           <div class="description__info">
             <p class="description__info-text">
-              Томаты на ветке красные (помидоры) - более плотные, яркие и
-              ароматные по сравнению с обычными. Они славятся низкой
-              калорийностью и высоким содержанием витаминов, клетчатки, пектина
-              и минеральных веществ. В них содержатся также каротиноиды, кислоты
-              и мощный антиоксидант ликопин.
+              <span class="description__info-text-decor"
+                >Томаты на ветке красные</span
+              >
+              (помидоры) - более плотные, яркие и ароматные по сравнению с
+              обычными.
+              <span class="description__info-text-mobile">
+                Они славятся низкой калорийностью и высоким содержанием
+                витаминов, клетчатки, пектина и минеральных веществ. В них
+                содержатся также каротиноиды, кислоты и мощный антиоксидант
+                ликопин.
+              </span>
             </p>
-            <p class="description__info-text">
+
+            <p class="description__info-text description__info-text--hidden">
               Помидор - незаменимый продукт в мировой кулинарии. Он - основа
               многочисленных соусов, маринадов, кетчупа, испанского холодного
               супа Гаспачо или итальянской закуски Капрезе. С ним делают салаты,
@@ -44,7 +51,7 @@
 
           <div class="table">
             <div class="table__characteristics">
-              <h2 class="table__title">ХАРАКТЕРИСТИКИ</h2>
+              <h2 class="table__title">Характеристики</h2>
               <ul class="table__list">
                 <li class="table__list-item">
                   <p class="table__list-text">Страна</p>
@@ -52,20 +59,27 @@
                 </li>
                 <li class="table__list-item">
                   <p class="table__list-text">Поставщик</p>
-                  <p class="table__list-text">Фермеры: Наталья и Юрий Лейшан</p>
+                  <p class="table__list-text">
+                    <span class="table__list-text--hidden">Фермеры: </span
+                    >Наталья и Юрий Лейшан
+                  </p>
                 </li>
                 <li class="table__list-item">
                   <p class="table__list-text">Тип упаковки</p>
                   <p class="table__list-text">Крафтовый пакет</p>
                 </li>
                 <li class="table__list-item">
-                  <p class="table__list-text">Сертификаты качества</p>
+                  <p class="table__list-text table__list-text-mobile">
+                    Сертификаты качества
+                  </p>
                   <p class="table__list-text">В наличии</p>
                 </li>
               </ul>
             </div>
             <div class="table__nutritional">
-              <h2 class="table__title">ПИЩЕВАЯ ЦЕННОСТЬ НА 100Г</h2>
+              <h2 class="table__title">
+                Пищевая ценность<span class="table__title-piece--hidden">на 100г</span>
+              </h2>
               <ul class="table__list">
                 <li class="table__list-item">
                   <p class="table__list-text">Энергетическая ценность</p>
@@ -86,15 +100,17 @@
               </ul>
             </div>
             <div class="table__storage">
-              <h2 class="table__title">УСЛОВИЯ ХРАНЕНИЯ</h2>
+              <h2 class="table__title">Условия хранения</h2>
               <ul class="table__list">
                 <li class="table__list-item">
                   <p class="table__list-text">Срок хранения</p>
-                  <p class="table__list-text">7 дней</p>
+                  <p class="table__list-text table__list-text-mobile">7 дней</p>
                 </li>
                 <li class="table__list-item">
                   <p class="table__list-text">Температура хранения</p>
-                  <p class="table__list-text">от 3 ° до 7 °</p>
+                  <p class="table__list-text table__list-text-mobile">
+                    от 3 ° до 7 °
+                  </p>
                 </li>
               </ul>
             </div>
@@ -102,7 +118,6 @@
 
           <div class="cards">
             <h3 class="cards__title">С этим товаром покупают</h3>
-
             <ul class="cards__list">
               <template id="cards-template">
                 <li class="card">
@@ -110,7 +125,7 @@
                   <img
                     alt="like card"
                     src="/src/assets/icon/like.svg"
-                    class="card__icon-like"
+                    class="card__icon card__icon-like"
                   />
                   <div class="card__content">
                     <div class="card__information">
@@ -124,20 +139,34 @@
                       <img
                         alt="shopping cart"
                         src="/src/assets/icon/shopping-cart.svg"
-                        class="card__icon-cart"
+                        class="card__icon card__icon-cart"
                       />
                       <img
                         alt="rating card"
                         src="/src/assets/images/rating.png"
-                        class="card__icon-rating"
+                        class="card__icon card__icon-rating"
                       />
                     </div>
+                    <button class="card__button">
+                      <p class="card__button-text">В корзину</p>
+                    <img
+                      alt="shopping cart mob"
+                      src="/src/assets/icon/plus.svg"
+                      class="card__icon-plus"
+                    />
+                    <img
+                      alt="shopping cart mob"
+                      src="/src/assets/icon/shopping-cart-mob.svg"
+                      class="card__icon-cart-mob"
+                    />
+                  </button>
                   </div>
                 </li>
               </template>
             </ul>
           </div>
         </div>
+
       </section>
       <section id="reviews" class="reviews" hidden>
         <div class="reviews__content">
@@ -152,19 +181,28 @@
         <div class="origin__content">
           <div class="origin__description">
             <p class="origin__description-text">
-              Томаты на ветке красные (помидоры) - более плотные, яркие и
-              ароматные по сравнению с обычными. Они славятся низкой
-              калорийностью и высоким содержанием витаминов, клетчатки, пектина
-              и минеральных веществ. В них содержатся также каротиноиды, кислоты
-              и мощный антиоксидант ликопин.
+              <span class="origin__description-text-decor"
+                >Томаты на ветке красные</span
+              >
+              (помидоры) - более плотные, яркие и ароматные по сравнению с
+              обычными.
+              <span class="origin__description-text-mobile">
+                Они славятся низкой калорийностью и высоким содержанием
+                витаминов, клетчатки, пектина и минеральных веществ. В них
+                содержатся также каротиноиды, кислоты и мощный антиоксидант
+                ликопин.
+              </span>
             </p>
-            <p class="origin__description-text">
+            <p
+              class="origin__description-text origin__description-text--hidden"
+            >
               Помидор - незаменимый продукт в мировой кулинарии. Он - основа
               многочисленных соусов, маринадов, кетчупа, испанского холодного
               супа Гаспачо или итальянской закуски Капрезе.
             </p>
           </div>
           <div class="origin__media">
+            <p class="origin__author">Наталья и Юрий Лейшан</p>
             <img
               src="/src/assets/images/provider.png"
               alt="provider image"

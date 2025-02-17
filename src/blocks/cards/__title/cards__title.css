@@ -1,6 +1,15 @@
 .cards__title {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: -1px;
+}
+
+@media (min-width: 1024px) {
+  .cards__title {
     margin-bottom: 28px;
-    font-weight: 500;
     font-size: 22px;
-    line-height: 20px;
+    margin-left: 0;
+  }
 }

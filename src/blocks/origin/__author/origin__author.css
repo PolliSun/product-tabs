@@ -1,0 +1,14 @@
+.origin__author {
+  display: flex;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 15px;
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+@media (min-width: 1024px) {
+  .origin__author {
+    display: none;
+  }
+}

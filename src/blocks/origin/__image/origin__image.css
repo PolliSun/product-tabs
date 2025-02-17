@@ -1,8 +1,17 @@
 .origin__image {
-  width: 376px;
-  height: 267px;
+  width: 336px;
+  height: 295px;
   border-radius: 5px;
-  margin-bottom: 26px;
+  margin-bottom: 34px;
+  margin-top: 7px;
   object-fit: cover;
-  object-position: top;
+}
+
+@media (min-width: 1024px) {
+  .origin__image {
+    width: 376px;
+    height: 267px;
+    margin-bottom: 25px;
+    object-position: top;
+  }
 }

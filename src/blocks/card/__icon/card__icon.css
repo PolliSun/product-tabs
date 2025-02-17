@@ -1,9 +1,33 @@
-.card__icon-like {
-  position: absolute;
-  top: 15px;
-  right: 15px;
+.card__icon {
+  display: none;
 }
 
-.card__icon-cart {
-  justify-self: end;
+.card__icon-cart-mob,
+.card__icon-plus {
+  display: block;
+}
+
+.card__icon-plus {
+  margin-right: 4px;
+}
+
+@media (min-width: 1024px) {
+  .card__icon {
+    display: block;
+  }
+  .card__icon-like {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .card__icon-cart-mob {
+    display: none;
+  }
+  .card__icon-cart {
+    justify-self: end;
+  }
+  .card__icon-cart-mob,
+  .card__icon-plus {
+    display: none;
+  }
 }

@@ -1,4 +1,25 @@
 .cards__list {
   display: flex;
-  gap: 22px;
+  gap: 16px;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 15px 12px;
+}
+
+.cards__list::-webkit-scrollbar {
+  display: none;
+}
+
+.cards__list {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 1024px) {
+  .cards__list {
+    display: flex;
+    gap: 22px;
+    padding: 0;
+  }
 }

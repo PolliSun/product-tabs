@@ -1,8 +1,15 @@
-@import url('./__button/tabs__button.css');
+@import url("./__button/tabs__button.css");
 
 .tabs {
-    display: flex;
-    max-width: 472px;
-    margin: 0 auto;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  margin-right: 4px;
+}
+
+@media (min-width: 1024px) {
+  .tabs {
+    max-width: 466px;
+    margin-left: 303px;
+    margin-right: 297px;
+  }
 }

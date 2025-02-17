@@ -4,14 +4,22 @@
 }
 
 .origin__actions-button {
-  border: 0.5px solid var(--primary-color);
-  color: var(--primary-color);
-  font-weight: 500;
-  font-size: 14px;
+  border: 0.5px solid #043E44;
+  color: #043E44;
+  font-weight: 600;
+  font-size: 15px;
   line-height: 20px;
-  padding: 9px 0;
+  padding: 8px 0;
   border-radius: 5px;
   width: 100%;
-  display: flex;
-  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .origin__actions-button {
+    border: 0.5px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px 0;
+  }
 }
