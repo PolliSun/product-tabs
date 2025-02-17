@@ -16,7 +16,7 @@
   font-weight: 500;
 }
 
-.description__info-text-mobile {
+.description__info-text--mobile {
   margin-top: 20px;
   display: block;
 }
@@ -29,7 +29,7 @@
   .description__info-text--hidden {
     display: block;
   }
-  .description__info-text-mobile {
+  .description__info-text--mobile {
     margin-top: 0;
     display: inline;
   }

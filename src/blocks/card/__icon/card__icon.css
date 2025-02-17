@@ -3,11 +3,11 @@
 }
 
 .card__icon-cart-mob,
-.card__icon-plus {
+.card__icon--plus {
   display: block;
 }
 
-.card__icon-plus {
+.card__icon--plus {
   margin-right: 4px;
 }
 
@@ -15,7 +15,7 @@
   .card__icon {
     display: block;
   }
-  .card__icon-like {
+  .card__icon--like {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -23,11 +23,11 @@
   .card__icon-cart-mob {
     display: none;
   }
-  .card__icon-cart {
+  .card__icon--cart {
     justify-self: end;
   }
-  .card__icon-cart-mob,
-  .card__icon-plus {
+  .card__icon--cart-mob,
+  .card__icon--plus {
     display: none;
   }
 }

@@ -15,7 +15,7 @@ export const displayCards = (initialCards) => {
     cardImage.alt = card.name;
     cardName.textContent = card.name;
     cardAbout.textContent = card.about;
-    cardPrice.childNodes[0].nodeValue = `${card.price}`; 
+    cardPrice.childNodes[0].nodeValue = `${card.price}`;
     cardPiece.textContent = ` / ${card.piece}`;
 
     fragment.appendChild(cardElement);

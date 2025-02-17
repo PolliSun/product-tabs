@@ -16,7 +16,7 @@
   line-height: 20px;
 }
 
-.table__list-text-mobile {
+.table__list-text--mobile {
   font-size: 13px;
 }
 
@@ -38,7 +38,7 @@
   .table__list-item:nth-of-type(3) {
     margin-bottom: 1px;
   }
-  .table__list-text-mobile {
+  .table__list-text--mobile {
     font-size: 12px;
   }
 }
