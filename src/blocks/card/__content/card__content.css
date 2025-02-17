@@ -1,0 +1,11 @@
+.card__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .card__content {
+    padding: 0 0 18px 12px;
+  }
+}

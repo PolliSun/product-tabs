@@ -1,0 +1,14 @@
+.card__name {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+}
+
+@media (min-width: 1024px) {
+  .card__name {
+    font-size: 14px;
+    margin-left: -1px;
+    color: #424141;
+  }
+}

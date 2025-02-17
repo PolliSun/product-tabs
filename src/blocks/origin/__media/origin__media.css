@@ -1,0 +1,4 @@
+.origin__media {
+  display: flex;
+  flex-direction: column;
+}

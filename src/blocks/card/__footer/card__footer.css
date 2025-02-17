@@ -1,0 +1,16 @@
+.card__footer {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1024px) {
+  .card__footer {
+    justify-items: start;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.reviews__button {
+  margin-top: 32px;
+  padding: 10px 0;
+  background-color: #429f3a;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  min-width: 184px;
+}
+
+@media (min-width: 1024px) {
+  .reviews__button {
+    margin-top: 34px;
+  }
+}

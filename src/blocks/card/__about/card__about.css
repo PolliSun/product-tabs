@@ -1,0 +1,12 @@
+.card__about {
+  font-size: 11px;
+  line-height: 18px;
+  color: #000;
+}
+
+@media (min-width: 1024px) {
+  .card__about {
+    font-size: 12px;
+    color: #89817f;
+  }
+}
